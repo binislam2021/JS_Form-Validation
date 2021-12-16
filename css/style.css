@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+/* ===================
+    Common CSS Ends
+=================== */
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    margin-top: 20px;
+}
+
+.main .form-container{
+    width: 650px;
+    padding: 15px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+span{
+    display: inline-block;
+    font-size: 25px;
+    color: #dddddd;
+    cursor: pointer;
+}
+.main .form-container form .grp{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.main .form-container form .grp small{
+    color: firebrick;
+    text-transform: capitalize;
+    display: block;
+    margin-top: 5px;
+}
+
+.main .form-container form .grp input{
+    padding: 20px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+.main .form-container form .grp button{
+    padding: 20px;
+    width: 100%;
+    background: tomato;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+#btn{
+    width: 100px;
+    height: 40px;
+    background: purple;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* ===================
+     CSS Starts
+=================== */
+/* ===================
+     CSS Ends
+=================== */

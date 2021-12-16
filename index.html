@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Form Validation _ binislam2021</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main" id="modal">
+        <div class="form-container">
+            <span id="close">&times;</span>
+            <form>
+                <div class="grp">
+                    <input type="text" placeholder="user name" id="userName">
+                    <small id="userErr"></small>
+                </div>
+                <div class="grp">
+                    <input type="email" placeholder="user mail" id="userEmail">
+                    <small id="emailErr"></small>
+                </div>
+                <div class="grp">
+                    <input type="password" placeholder="user password" id="userPass">
+                    <small id="passErr"></small>
+                </div>
+                <div class="grp">
+                    <input type="password" placeholder="confirm password" id="rePass">
+                    <small id="rePassErr"></small>
+                </div>
+                <div class="grp">
+                    <button type="submit" onclick="return subm();">register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="btn">Sign Up</div>
+
+
+
+    <script src="js/custom.js"></script>
+    
+</body>
+</html>
